@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "V:\\Final\\ComputerSeekho.Net\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF0D033F-483C-4506-9034-439BE41BC17F}|ComputerSeekho.Net\\ComputerSeekho.Net.csproj|v:\\final\\computerseekho.net\\computerseekho.net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF0D033F-483C-4506-9034-439BE41BC17F}|ComputerSeekho.Net\\ComputerSeekho.Net.csproj|solutionrelative:computerseekho.net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF0D033F-483C-4506-9034-439BE41BC17F}|ComputerSeekho.Net\\ComputerSeekho.Net.csproj|v:\\final\\computerseekho.net\\computerseekho.net\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF0D033F-483C-4506-9034-439BE41BC17F}|ComputerSeekho.Net\\ComputerSeekho.Net.csproj|solutionrelative:computerseekho.net\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF0D033F-483C-4506-9034-439BE41BC17F}|ComputerSeekho.Net\\ComputerSeekho.Net.csproj|v:\\final\\computerseekho.net\\computerseekho.net\\services\\utilityservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF0D033F-483C-4506-9034-439BE41BC17F}|ComputerSeekho.Net\\ComputerSeekho.Net.csproj|solutionrelative:computerseekho.net\\services\\utilityservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF0D033F-483C-4506-9034-439BE41BC17F}|ComputerSeekho.Net\\ComputerSeekho.Net.csproj|v:\\final\\computerseekho.net\\computerseekho.net\\controllers\\getintouchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF0D033F-483C-4506-9034-439BE41BC17F}|ComputerSeekho.Net\\ComputerSeekho.Net.csproj|solutionrelative:computerseekho.net\\controllers\\getintouchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF0D033F-483C-4506-9034-439BE41BC17F}|ComputerSeekho.Net\\ComputerSeekho.Net.csproj|v:\\final\\computerseekho.net\\computerseekho.net\\models\\getintouch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF0D033F-483C-4506-9034-439BE41BC17F}|ComputerSeekho.Net\\ComputerSeekho.Net.csproj|solutionrelative:computerseekho.net\\models\\getintouch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF0D033F-483C-4506-9034-439BE41BC17F}|ComputerSeekho.Net\\ComputerSeekho.Net.csproj|v:\\final\\computerseekho.net\\computerseekho.net\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BF0D033F-483C-4506-9034-439BE41BC17F}|ComputerSeekho.Net\\ComputerSeekho.Net.csproj|solutionrelative:computerseekho.net\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF0D033F-483C-4506-9034-439BE41BC17F}|ComputerSeekho.Net\\ComputerSeekho.Net.csproj|v:\\final\\computerseekho.net\\computerseekho.net\\services\\staffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF0D033F-483C-4506-9034-439BE41BC17F}|ComputerSeekho.Net\\ComputerSeekho.Net.csproj|solutionrelative:computerseekho.net\\services\\staffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "V:\\Final\\ComputerSeekho.Net\\ComputerSeekho.Net\\Program.cs",
+              "RelativeDocumentMoniker": "ComputerSeekho.Net\\Program.cs",
+              "ToolTip": "V:\\Final\\ComputerSeekho.Net\\ComputerSeekho.Net\\Program.cs",
+              "RelativeToolTip": "ComputerSeekho.Net\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T07:55:34.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UtilityServices.cs",
+              "DocumentMoniker": "V:\\Final\\ComputerSeekho.Net\\ComputerSeekho.Net\\Services\\UtilityServices.cs",
+              "RelativeDocumentMoniker": "ComputerSeekho.Net\\Services\\UtilityServices.cs",
+              "ToolTip": "V:\\Final\\ComputerSeekho.Net\\ComputerSeekho.Net\\Services\\UtilityServices.cs",
+              "RelativeToolTip": "ComputerSeekho.Net\\Services\\UtilityServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T07:52:56.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetInTouchController.cs",
+              "DocumentMoniker": "V:\\Final\\ComputerSeekho.Net\\ComputerSeekho.Net\\Controllers\\GetInTouchController.cs",
+              "RelativeDocumentMoniker": "ComputerSeekho.Net\\Controllers\\GetInTouchController.cs",
+              "ToolTip": "V:\\Final\\ComputerSeekho.Net\\ComputerSeekho.Net\\Controllers\\GetInTouchController.cs",
+              "RelativeToolTip": "ComputerSeekho.Net\\Controllers\\GetInTouchController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwA8AAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T07:49:04.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetInTouch.cs",
+              "DocumentMoniker": "V:\\Final\\ComputerSeekho.Net\\ComputerSeekho.Net\\Models\\GetInTouch.cs",
+              "RelativeDocumentMoniker": "ComputerSeekho.Net\\Models\\GetInTouch.cs",
+              "ToolTip": "V:\\Final\\ComputerSeekho.Net\\ComputerSeekho.Net\\Models\\GetInTouch.cs",
+              "RelativeToolTip": "ComputerSeekho.Net\\Models\\GetInTouch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T06:12:54.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "V:\\Final\\ComputerSeekho.Net\\ComputerSeekho.Net\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ComputerSeekho.Net\\Properties\\launchSettings.json",
+              "ToolTip": "V:\\Final\\ComputerSeekho.Net\\ComputerSeekho.Net\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ComputerSeekho.Net\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-05T06:12:55.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StaffService.cs",
+              "DocumentMoniker": "V:\\Final\\ComputerSeekho.Net\\ComputerSeekho.Net\\Services\\StaffService.cs",
+              "RelativeDocumentMoniker": "ComputerSeekho.Net\\Services\\StaffService.cs",
+              "ToolTip": "V:\\Final\\ComputerSeekho.Net\\ComputerSeekho.Net\\Services\\StaffService.cs",
+              "RelativeToolTip": "ComputerSeekho.Net\\Services\\StaffService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T06:12:55.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "V:\\Final\\ComputerSeekho.Net\\ComputerSeekho.Net\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ComputerSeekho.Net\\Data\\AppDbContext.cs",
+              "ToolTip": "V:\\Final\\ComputerSeekho.Net\\ComputerSeekho.Net\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ComputerSeekho.Net\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T06:12:55.174Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
