@@ -9,10 +9,6 @@ services:
     dockerfilePath: ./Dockerfile
     healthCheckPath: /
     envVars:
-      - key: SPRING_DATASOURCE_URL
-        value: jdbc:mysql://<YOUR_MYSQL_HOST>:3306/Codingseekhoapp?useSSL=true&requireSSL=true
-      - key: SPRING_DATASOURCE_USERNAME
-        value: <YOUR_MYSQL_USER>
       - key: SPRING_DATASOURCE_PASSWORD
         sync: false
       - key: JWT_SECRET
@@ -21,8 +17,6 @@ services:
         value: smtp.gmail.com
       - key: SPRING_MAIL_PORT
         value: "587"
-      - key: SPRING_MAIL_USERNAME
-        value: <YOUR_EMAIL>
       - key: SPRING_MAIL_PASSWORD
         sync: false
       - key: IMAGE_UPLOAD_DIR
