@@ -2,7 +2,7 @@ services:
   - type: web
     name: coding-seekho-backend
     runtime: docker
-    region: oregon
+    region: singapore
     plan: free
     branch: main
     rootDir: java-backend
