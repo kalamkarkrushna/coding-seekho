@@ -30,13 +30,13 @@ services:
       - key: SPRING_JPA_HIBERNATE_DDL_AUTO
         value: update
 
-staticSites:
-  - type: static
+  - type: web
     name: coding-seekho-frontend
+    runtime: static
     region: oregon
     branch: main
     buildCommand: cd frontend && npm install && npm run build
-    publishPath: frontend/dist
+    staticPublishPath: frontend/dist
     buildFilter:
       paths:
         - frontend/**
