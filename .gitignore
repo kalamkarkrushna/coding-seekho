@@ -1,0 +1,30 @@
+# Java build
+java-backend/target/
+java-backend/*.log
+java-backend/*.err
+java-backend/*.txt
+java-backend/*.ps1
+java-backend/.metadata/
+
+# Frontend build
+frontend/dist/
+frontend/node_modules/
+
+# IDE
+.metadata/
+.classpath
+.project
+.settings/
+*.iml
+.idea/
+
+# Env files
+.env
+.env.local
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temp
+/tmp/

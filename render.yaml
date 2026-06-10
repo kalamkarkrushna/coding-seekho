@@ -1,0 +1,45 @@
+services:
+  - type: web
+    name: coding-seekho-backend
+    runtime: java
+    region: oregon
+    plan: free
+    branch: main
+    buildCommand: mvn clean package -DskipTests -f java-backend/pom.xml
+    startCommand: java -jar java-backend/target/demo-0.0.1-SNAPSHOT.jar
+    healthCheckPath: /
+    envVars:
+      - key: SPRING_DATASOURCE_URL
+        value: jdbc:mysql://<YOUR_MYSQL_HOST>:3306/Codingseekhoapp?useSSL=true&requireSSL=true
+      - key: SPRING_DATASOURCE_USERNAME
+        value: <YOUR_MYSQL_USER>
+      - key: SPRING_DATASOURCE_PASSWORD
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: SPRING_MAIL_HOST
+        value: smtp.gmail.com
+      - key: SPRING_MAIL_PORT
+        value: "587"
+      - key: SPRING_MAIL_USERNAME
+        value: <YOUR_EMAIL>
+      - key: SPRING_MAIL_PASSWORD
+        sync: false
+      - key: IMAGE_UPLOAD_DIR
+        value: /tmp/images
+      - key: SPRING_JPA_HIBERNATE_DDL_AUTO
+        value: update
+
+staticSites:
+  - type: static
+    name: coding-seekho-frontend
+    region: oregon
+    branch: main
+    buildCommand: cd frontend && npm install && npm run build
+    publishPath: frontend/dist
+    buildFilter:
+      paths:
+        - frontend/**
+    envVars:
+      - key: VITE_API_URL
+        value: https://coding-seekho-backend.onrender.com

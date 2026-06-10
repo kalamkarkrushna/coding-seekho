@@ -14,7 +14,7 @@ export const LanguageProvider = ({ children }) => {
     const fetchLabels = async (lang) => {
         try {
             // Adjust usage of localhost URL as needed or import api service
-            const response = await fetch(`http://localhost:8080/i18n/messages?lang=${lang}`);
+            const response = await fetch(`${import.meta.env.VITE_API_URL || ''}/i18n/messages?lang=${lang}`);
             if (response.ok) {
                 const data = await response.json();
                 setLabels(data);

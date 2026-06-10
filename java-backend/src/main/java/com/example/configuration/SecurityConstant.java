@@ -1,6 +1,6 @@
 package com.example.configuration;
 
-public interface SecurityConstant {
-    String JWT_KEY = "jxgEQeXHuPq8VdbyYFNkANdudQ53YUn4"; // Must be 32+ chars
-    String JWT_HEADER = "Authorization";
+public class SecurityConstant {
+    public static final String JWT_KEY = System.getenv("JWT_SECRET") != null ? System.getenv("JWT_SECRET") : "jxgEQeXHuPq8VdbyYFNkANdudQ53YUn4";
+    public static final String JWT_HEADER = "Authorization";
 }

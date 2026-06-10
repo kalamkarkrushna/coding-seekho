@@ -415,7 +415,7 @@ const Masters = () => {
                                     <Button
                                         variant="outline-primary"
                                         className="mb-3"
-                                        onClick={() => window.location.href = 'http://localhost:8080/api/excel/download'}
+                                        onClick={() => window.location.href = `${import.meta.env.VITE_API_URL || ''}/api/excel/download`}
                                     >
                                         Download Sample
                                     </Button>

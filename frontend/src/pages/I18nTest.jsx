@@ -8,7 +8,7 @@ const I18nTest = () => {
     const fetchGreeting = async (lang) => {
         try {
             setError('');
-            let url = 'http://localhost:8080/i18n/greet';
+            let url = `${import.meta.env.VITE_API_URL || ''}/i18n/greet`;
             if (lang) {
                 url += `?lang=${lang}`;
             }
