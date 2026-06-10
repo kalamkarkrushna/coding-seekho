@@ -1,12 +1,12 @@
 services:
   - type: web
     name: coding-seekho-backend
-    runtime: java
+    runtime: docker
     region: oregon
     plan: free
     branch: main
-    buildCommand: mvn clean package -DskipTests -f java-backend/pom.xml
-    startCommand: java -jar java-backend/target/demo-0.0.1-SNAPSHOT.jar
+    rootDir: java-backend
+    dockerfilePath: ./Dockerfile
     healthCheckPath: /
     envVars:
       - key: SPRING_DATASOURCE_URL
@@ -33,7 +33,6 @@ services:
   - type: web
     name: coding-seekho-frontend
     runtime: static
-    region: oregon
     branch: main
     buildCommand: cd frontend && npm install && npm run build
     staticPublishPath: frontend/dist
