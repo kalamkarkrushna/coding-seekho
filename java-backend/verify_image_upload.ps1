@@ -27,7 +27,7 @@ Test-Step "Authentication" {
 }
 
 Test-Step "Upload Image" {
-    $filePath = "d:\Gravity\ComputerSeekho\ComputerSeekho\dummy.jpg"
+    $filePath = "d:\Gravity\CodingSeekho\CodingSeekho\dummy.jpg"
     $fileBytes = [System.IO.File]::ReadAllBytes($filePath)
     $boundary = [System.Guid]::NewGuid().ToString()
     $LF = "`r`n"

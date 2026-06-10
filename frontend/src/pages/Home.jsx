@@ -32,7 +32,7 @@ const Home = () => {
     return (
         <Container className="mt-4">
             <div className="jumbotron p-5 mb-4 bg-light rounded-3">
-                <h1>{labels['home.welcome'] || "Welcome to Computer Seekho"}</h1>
+                <h1>{labels['home.welcome'] || "Welcome to Coding Seekho"}</h1>
                 <p className="lead">{labels['home.subtitle'] || "Empowering you with the best IT skills for a brighter future."}</p>
                 <hr className="my-4" />
                 <p>{labels['home.explore'] || "Explore our courses and start your journey today."}</p>
@@ -71,9 +71,7 @@ const Home = () => {
                         alt="Second slide"
                         style={{ height: '400px', objectFit: 'cover' }}
                     />
-                    <Carousel.Caption>
-                        <h3>{labels['home.community'] || "Vibrant Student Community"}</h3>
-                    </Carousel.Caption>
+                    
                 </Carousel.Item>
             </Carousel>
         </Container>

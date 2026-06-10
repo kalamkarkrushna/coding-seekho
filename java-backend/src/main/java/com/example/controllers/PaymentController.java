@@ -83,12 +83,12 @@ public class PaymentController {
 
         // Send Email
         try {
-            String subject = "Payment Receipt - Computer Seekho";
+            String subject = "Payment Receipt - Coding Seekho";
             String body = "Dear " + student.getStudentName() + ",\n\n" +
                     "We have received a payment of Rs. " + savedPayment.getAmount() + ".\n" +
                     "Date: " + savedPayment.getPaymentDate() + "\n" +
                     "Transaction ID: " + savedPayment.getPaymentId() + "\n\n" +
-                    "Thank you,\nComputer Seekho Accounts";
+                    "Thank you,\nCoding Seekho Accounts";
 
             emailService.sendSimpleEmail(student.getStudentEmail(), subject, body);
         } catch (Exception e) {

@@ -8,6 +8,7 @@ services:
     rootDir: java-backend
     dockerfilePath: ./Dockerfile
     healthCheckPath: /actuator/health
+    healthCheckTimeout: 30
     envVars:
       - key: SPRING_DATASOURCE_URL
         value: jdbc:mysql://<YOUR_MYSQL_HOST>:3306/Codingseekhoapp?useSSL=true&requireSSL=true

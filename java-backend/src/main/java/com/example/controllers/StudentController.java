@@ -58,11 +58,11 @@ public class StudentController {
         }
 
         // Send Email (Direct Service)
-        String subject = "Welcome to Computer Seekho - " + student2.getStudentName();
+        String subject = "Welcome to Coding Seekho - " + student2.getStudentName();
         String body = "Dear " + student2.getStudentName() + ",\n\n" +
                 "Congratulations! You have been successfully registered.\n" +
                 "Course: " + (student2.getCourse() != null ? student2.getCourse().getCourseName() : "N/A") + "\n" +
-                "\nBest Regards,\nComputer Seekho Team";
+                "\nBest Regards,\nCoding Seekho Team";
 
         emailService.sendSimpleEmail(student2.getStudentEmail(), subject, body);
 

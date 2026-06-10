@@ -39,7 +39,7 @@ public class DataLoader implements CommandLineRunner {
 
         if (newsRepository.count() == 0) {
             News news = new News();
-            news.setNewsTitle("Welcome to Computer Seekho");
+            news.setNewsTitle("Welcome to Coding Seekho");
             news.setNewsDescription("New batches starting from next Monday. Enroll now!");
             news.setNewsUrl("http://example.com");
             newsRepository.save(news);

@@ -22,7 +22,7 @@ public class JWTokenGenerationFilter {
         SecretKey key = Keys.hmacShaKeyFor(SecurityConstant.JWT_KEY.getBytes(StandardCharsets.UTF_8));
 
         String jwt = Jwts.builder()
-                .setIssuer("Computer Seekho")
+                .setIssuer("Coding Seekho")
                 .setSubject("JWT Token")
                 .claim("username", authentication.getName())
                 .claim("authorities", getAuthorities(authentication.getAuthorities()))

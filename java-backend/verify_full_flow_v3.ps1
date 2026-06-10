@@ -60,7 +60,7 @@ function Test-Endpoint {
     }
 }
 
-Write-Host "--- ComputerSeekho API Verification ---"
+Write-Host "--- CodingSeekho API Verification ---"
 
 # 1. Login
 $headers = @{}

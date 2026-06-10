@@ -6,9 +6,9 @@ const About = () => {
         <Container className="mt-4">
             <Row>
                 <Col>
-                    <h2>About Computer Seekho</h2>
+                    <h2>About Coding Seekho</h2>
                     <p className="lead">
-                        Vidyanidhi’s IT Institute (VITA) brings you Computer Seekho, a premier destination for learning cutting-edge IT skills.
+                        Vidyanidhi’s IT Institute (VITA) brings you Coding Seekho, a premier destination for learning cutting-edge IT skills.
                     </p>
                     <p>
                         Our mission is to provide high-quality education and placement assistance to students, helping them build successful careers in the technology sector.

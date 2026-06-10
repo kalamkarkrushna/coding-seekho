@@ -1,4 +1,4 @@
-2026-02-04 09:41:07 - Starting ComputerSeekhoApplication using Java 17.0.12 with PID 7144 (D:\Gravity\ComputerSeekho\ComputerSeekho\target\classes started by NT7 in D:\Gravity\ComputerSeekho\ComputerSeekho)
+2026-02-04 09:41:07 - Starting CodingSeekhoApplication using Java 17.0.12 with PID 7144 (D:\Gravity\CodingSeekho\CodingSeekho\target\classes started by NT7 in D:\Gravity\CodingSeekho\CodingSeekho)
 2026-02-04 09:41:07 - No active profile set, falling back to 1 default profile: "default"
 2026-02-04 09:41:07 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2026-02-04 09:41:07 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
@@ -16,11 +16,11 @@
 2026-02-04 09:41:11 - HikariPool-1 - Start completed.
 2026-02-04 09:41:11 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
 2026-02-04 09:41:11 - HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/computerseekhoapp]
+	Database JDBC URL [jdbc:mysql://localhost:3306/Codingseekhoapp]
 	Database driver: MySQL Connector/J
 	Database dialect: MySQLDialect
 	Database version: 8.0.42
-	Default catalog/schema: computerseekhoapp/undefined
+	Default catalog/schema: Codingseekhoapp/undefined
 	Autocommit mode: undefined/unknown
 	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
 	JDBC fetch size: none
@@ -34,7 +34,7 @@
 2026-02-04 09:41:15 - Global AuthenticationManager configured with AuthenticationProvider bean with name usernamePasswordAuthentication
 2026-02-04 09:41:17 - Exposing 1 endpoint beneath base path '/actuator'
 2026-02-04 09:41:18 - Tomcat started on port 8080 (http) with context path '/'
-2026-02-04 09:41:18 - Started ComputerSeekhoApplication in 11.502 seconds (process running for 12.36)
+2026-02-04 09:41:18 - Started CodingSeekhoApplication in 11.502 seconds (process running for 12.36)
 2026-02-04 09:41:51 - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2026-02-04 09:41:51 - Initializing Servlet 'dispatcherServlet'
 2026-02-04 09:41:51 - Completed initialization in 6 ms
@@ -178,7 +178,7 @@
 2026-02-04 10:04:39 - Closing JPA EntityManagerFactory for persistence unit 'default'
 2026-02-04 10:04:39 - HikariPool-1 - Shutdown initiated...
 2026-02-04 10:04:39 - HikariPool-1 - Shutdown completed.
-2026-02-04 10:04:40 - Starting ComputerSeekhoApplication using Java 17.0.12 with PID 7144 (D:\Gravity\ComputerSeekho\ComputerSeekho\target\classes started by NT7 in D:\Gravity\ComputerSeekho\ComputerSeekho)
+2026-02-04 10:04:40 - Starting CodingSeekhoApplication using Java 17.0.12 with PID 7144 (D:\Gravity\CodingSeekho\CodingSeekho\target\classes started by NT7 in D:\Gravity\CodingSeekho\CodingSeekho)
 2026-02-04 10:04:40 - No active profile set, falling back to 1 default profile: "default"
 2026-02-04 10:04:40 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2026-02-04 10:04:40 - Finished Spring Data repository scanning in 66 ms. Found 17 JPA repository interfaces.
@@ -193,11 +193,11 @@
 2026-02-04 10:04:41 - HikariPool-2 - Start completed.
 2026-02-04 10:04:41 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
 2026-02-04 10:04:41 - HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/computerseekhoapp]
+	Database JDBC URL [jdbc:mysql://localhost:3306/Codingseekhoapp]
 	Database driver: MySQL Connector/J
 	Database dialect: MySQLDialect
 	Database version: 8.0.42
-	Default catalog/schema: computerseekhoapp/undefined
+	Default catalog/schema: Codingseekhoapp/undefined
 	Autocommit mode: undefined/unknown
 	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
 	JDBC fetch size: none
@@ -210,7 +210,7 @@
 2026-02-04 10:04:41 - Global AuthenticationManager configured with AuthenticationProvider bean with name usernamePasswordAuthentication
 2026-02-04 10:04:42 - Exposing 1 endpoint beneath base path '/actuator'
 2026-02-04 10:04:42 - Tomcat started on port 8080 (http) with context path '/'
-2026-02-04 10:04:42 - Started ComputerSeekhoApplication in 2.797 seconds (process running for 1417.125)
+2026-02-04 10:04:42 - Started CodingSeekhoApplication in 2.797 seconds (process running for 1417.125)
 2026-02-04 10:04:43 - Condition evaluation unchanged
 2026-02-04 10:06:33 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
 2026-02-04 10:06:33 - Commencing graceful shutdown. Waiting for active requests to complete
@@ -218,7 +218,7 @@
 2026-02-04 10:06:34 - Closing JPA EntityManagerFactory for persistence unit 'default'
 2026-02-04 10:06:34 - HikariPool-2 - Shutdown initiated...
 2026-02-04 10:06:34 - HikariPool-2 - Shutdown completed.
-2026-02-04 10:06:34 - Starting ComputerSeekhoApplication using Java 17.0.12 with PID 7144 (D:\Gravity\ComputerSeekho\ComputerSeekho\target\classes started by NT7 in D:\Gravity\ComputerSeekho\ComputerSeekho)
+2026-02-04 10:06:34 - Starting CodingSeekhoApplication using Java 17.0.12 with PID 7144 (D:\Gravity\CodingSeekho\CodingSeekho\target\classes started by NT7 in D:\Gravity\CodingSeekho\CodingSeekho)
 2026-02-04 10:06:34 - No active profile set, falling back to 1 default profile: "default"
 2026-02-04 10:06:34 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2026-02-04 10:06:34 - Finished Spring Data repository scanning in 78 ms. Found 17 JPA repository interfaces.
@@ -233,11 +233,11 @@
 2026-02-04 10:06:35 - HikariPool-3 - Start completed.
 2026-02-04 10:06:35 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
 2026-02-04 10:06:35 - HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/computerseekhoapp]
+	Database JDBC URL [jdbc:mysql://localhost:3306/Codingseekhoapp]
 	Database driver: MySQL Connector/J
 	Database dialect: MySQLDialect
 	Database version: 8.0.42
-	Default catalog/schema: computerseekhoapp/undefined
+	Default catalog/schema: Codingseekhoapp/undefined
 	Autocommit mode: undefined/unknown
 	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
 	JDBC fetch size: none
@@ -250,9 +250,9 @@
 2026-02-04 10:06:35 - Global AuthenticationManager configured with AuthenticationProvider bean with name usernamePasswordAuthentication
 2026-02-04 10:06:36 - Exposing 1 endpoint beneath base path '/actuator'
 2026-02-04 10:06:36 - Tomcat started on port 8080 (http) with context path '/'
-2026-02-04 10:06:36 - Started ComputerSeekhoApplication in 2.422 seconds (process running for 1530.782)
+2026-02-04 10:06:36 - Started CodingSeekhoApplication in 2.422 seconds (process running for 1530.782)
 2026-02-04 10:06:36 - Condition evaluation unchanged
-2026-02-04 10:08:36 - Starting ComputerSeekhoApplication using Java 17.0.12 with PID 26568 (D:\Gravity\ComputerSeekho\ComputerSeekho\target\classes started by NT7 in D:\Gravity\ComputerSeekho\ComputerSeekho)
+2026-02-04 10:08:36 - Starting CodingSeekhoApplication using Java 17.0.12 with PID 26568 (D:\Gravity\CodingSeekho\CodingSeekho\target\classes started by NT7 in D:\Gravity\CodingSeekho\CodingSeekho)
 2026-02-04 10:08:36 - No active profile set, falling back to 1 default profile: "default"
 2026-02-04 10:08:36 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2026-02-04 10:08:36 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
@@ -270,11 +270,11 @@
 2026-02-04 10:08:40 - HikariPool-1 - Start completed.
 2026-02-04 10:08:40 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
 2026-02-04 10:08:41 - HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/computerseekhoapp]
+	Database JDBC URL [jdbc:mysql://localhost:3306/Codingseekhoapp]
 	Database driver: MySQL Connector/J
 	Database dialect: MySQLDialect
 	Database version: 8.0.42
-	Default catalog/schema: computerseekhoapp/undefined
+	Default catalog/schema: Codingseekhoapp/undefined
 	Autocommit mode: undefined/unknown
 	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
 	JDBC fetch size: none
@@ -288,7 +288,7 @@
 2026-02-04 10:08:44 - Global AuthenticationManager configured with AuthenticationProvider bean with name usernamePasswordAuthentication
 2026-02-04 10:08:46 - Exposing 1 endpoint beneath base path '/actuator'
 2026-02-04 10:08:46 - Tomcat started on port 8080 (http) with context path '/'
-2026-02-04 10:08:46 - Started ComputerSeekhoApplication in 11.131 seconds (process running for 12.22)
+2026-02-04 10:08:46 - Started CodingSeekhoApplication in 11.131 seconds (process running for 12.22)
 2026-02-04 10:09:08 - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2026-02-04 10:09:08 - Initializing Servlet 'dispatcherServlet'
 2026-02-04 10:09:08 - Completed initialization in 4 ms
@@ -366,7 +366,7 @@
 2026-02-04 10:11:27 - Entering method: EnquiryServiceImpl.getEnquiryByStaff(..)
 2026-02-04 10:11:27 - Exiting method: EnquiryServiceImpl.getEnquiryByStaff(..) | Execution time: 12 ms
 2026-02-04 10:11:27 - Exiting method: EnquiryController.getEnquiryByStaff(..) | Execution time: 21 ms
-2026-02-04 10:18:22 - Starting ComputerSeekhoApplication using Java 17.0.12 with PID 17912 (D:\Gravity\ComputerSeekho\ComputerSeekho\target\classes started by NT7 in D:\Gravity\ComputerSeekho\ComputerSeekho)
+2026-02-04 10:18:22 - Starting CodingSeekhoApplication using Java 17.0.12 with PID 17912 (D:\Gravity\CodingSeekho\CodingSeekho\target\classes started by NT7 in D:\Gravity\CodingSeekho\CodingSeekho)
 2026-02-04 10:18:22 - No active profile set, falling back to 1 default profile: "default"
 2026-02-04 10:18:22 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2026-02-04 10:18:22 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
@@ -384,11 +384,11 @@
 2026-02-04 10:18:25 - HikariPool-1 - Start completed.
 2026-02-04 10:18:25 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
 2026-02-04 10:18:25 - HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/computerseekhoapp]
+	Database JDBC URL [jdbc:mysql://localhost:3306/Codingseekhoapp]
 	Database driver: MySQL Connector/J
 	Database dialect: MySQLDialect
 	Database version: 8.0.42
-	Default catalog/schema: computerseekhoapp/undefined
+	Default catalog/schema: Codingseekhoapp/undefined
 	Autocommit mode: undefined/unknown
 	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
 	JDBC fetch size: none
@@ -402,7 +402,7 @@
 2026-02-04 10:18:29 - Global AuthenticationManager configured with AuthenticationProvider bean with name usernamePasswordAuthentication
 2026-02-04 10:18:30 - Exposing 1 endpoint beneath base path '/actuator'
 2026-02-04 10:18:30 - Tomcat started on port 8080 (http) with context path '/'
-2026-02-04 10:18:30 - Started ComputerSeekhoApplication in 9.229 seconds (process running for 9.854)
+2026-02-04 10:18:30 - Started CodingSeekhoApplication in 9.229 seconds (process running for 9.854)
 2026-02-04 10:18:43 - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2026-02-04 10:18:43 - Initializing Servlet 'dispatcherServlet'
 2026-02-04 10:18:43 - Completed initialization in 2 ms
@@ -449,7 +449,7 @@
 2026-02-04 10:19:48 - Closing JPA EntityManagerFactory for persistence unit 'default'
 2026-02-04 10:19:48 - HikariPool-1 - Shutdown initiated...
 2026-02-04 10:19:48 - HikariPool-1 - Shutdown completed.
-2026-02-04 10:20:25 - Starting ComputerSeekhoApplication using Java 17.0.12 with PID 21148 (D:\Gravity\ComputerSeekho\ComputerSeekho\target\classes started by NT7 in D:\Gravity\ComputerSeekho\ComputerSeekho)
+2026-02-04 10:20:25 - Starting CodingSeekhoApplication using Java 17.0.12 with PID 21148 (D:\Gravity\CodingSeekho\CodingSeekho\target\classes started by NT7 in D:\Gravity\CodingSeekho\CodingSeekho)
 2026-02-04 10:20:25 - No active profile set, falling back to 1 default profile: "default"
 2026-02-04 10:20:25 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2026-02-04 10:20:25 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
@@ -467,11 +467,11 @@
 2026-02-04 10:20:28 - HikariPool-1 - Start completed.
 2026-02-04 10:20:28 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
 2026-02-04 10:20:28 - HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/computerseekhoapp]
+	Database JDBC URL [jdbc:mysql://localhost:3306/Codingseekhoapp]
 	Database driver: MySQL Connector/J
 	Database dialect: MySQLDialect
 	Database version: 8.0.42
-	Default catalog/schema: computerseekhoapp/undefined
+	Default catalog/schema: Codingseekhoapp/undefined
 	Autocommit mode: undefined/unknown
 	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
 	JDBC fetch size: none
@@ -485,7 +485,7 @@
 2026-02-04 10:20:32 - Global AuthenticationManager configured with AuthenticationProvider bean with name usernamePasswordAuthentication
 2026-02-04 10:20:34 - Exposing 1 endpoint beneath base path '/actuator'
 2026-02-04 10:20:34 - Tomcat started on port 8080 (http) with context path '/'
-2026-02-04 10:20:34 - Started ComputerSeekhoApplication in 9.587 seconds (process running for 10.113)
+2026-02-04 10:20:34 - Started CodingSeekhoApplication in 9.587 seconds (process running for 10.113)
 2026-02-04 10:20:41 - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2026-02-04 10:20:41 - Initializing Servlet 'dispatcherServlet'
 2026-02-04 10:20:41 - Completed initialization in 2 ms
@@ -696,7 +696,7 @@
 2026-02-04 10:24:06 - Closing JPA EntityManagerFactory for persistence unit 'default'
 2026-02-04 10:24:06 - HikariPool-1 - Shutdown initiated...
 2026-02-04 10:24:06 - HikariPool-1 - Shutdown completed.
-2026-02-04 10:32:59 - Starting ComputerSeekhoApplication using Java 17.0.12 with PID 19980 (D:\Gravity\ComputerSeekho\ComputerSeekho\target\classes started by NT7 in D:\Gravity\ComputerSeekho\ComputerSeekho)
+2026-02-04 10:32:59 - Starting CodingSeekhoApplication using Java 17.0.12 with PID 19980 (D:\Gravity\CodingSeekho\CodingSeekho\target\classes started by NT7 in D:\Gravity\CodingSeekho\CodingSeekho)
 2026-02-04 10:32:59 - No active profile set, falling back to 1 default profile: "default"
 2026-02-04 10:32:59 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2026-02-04 10:32:59 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
@@ -714,11 +714,11 @@
 2026-02-04 10:33:03 - HikariPool-1 - Start completed.
 2026-02-04 10:33:03 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
 2026-02-04 10:33:03 - HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/computerseekhoapp]
+	Database JDBC URL [jdbc:mysql://localhost:3306/Codingseekhoapp]
 	Database driver: MySQL Connector/J
 	Database dialect: MySQLDialect
 	Database version: 8.0.42
-	Default catalog/schema: computerseekhoapp/undefined
+	Default catalog/schema: Codingseekhoapp/undefined
 	Autocommit mode: undefined/unknown
 	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
 	JDBC fetch size: none
@@ -732,7 +732,7 @@
 2026-02-04 10:33:05 - Global AuthenticationManager configured with AuthenticationProvider bean with name usernamePasswordAuthentication
 2026-02-04 10:33:07 - Exposing 1 endpoint beneath base path '/actuator'
 2026-02-04 10:33:07 - Tomcat started on port 8080 (http) with context path '/'
-2026-02-04 10:33:07 - Started ComputerSeekhoApplication in 8.525 seconds (process running for 9.075)
+2026-02-04 10:33:07 - Started CodingSeekhoApplication in 8.525 seconds (process running for 9.075)
 2026-02-04 10:33:53 - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2026-02-04 10:33:53 - Initializing Servlet 'dispatcherServlet'
 2026-02-04 10:33:53 - Completed initialization in 2 ms
@@ -980,7 +980,7 @@
 2026-02-04 10:34:52 - Entering method: EnquiryServiceImpl.getEnquiryByStaff(..)
 2026-02-04 10:34:52 - Exiting method: EnquiryServiceImpl.getEnquiryByStaff(..) | Execution time: 6 ms
 2026-02-04 10:34:52 - Exiting method: EnquiryController.getEnquiryByStaff(..) | Execution time: 6 ms
-2026-02-04 11:20:18 - Starting ComputerSeekhoApplication using Java 17.0.12 with PID 25280 (D:\Gravity\ComputerSeekho\ComputerSeekho\target\classes started by NT7 in D:\Gravity\ComputerSeekho\ComputerSeekho)
+2026-02-04 11:20:18 - Starting CodingSeekhoApplication using Java 17.0.12 with PID 25280 (D:\Gravity\CodingSeekho\CodingSeekho\target\classes started by NT7 in D:\Gravity\CodingSeekho\CodingSeekho)
 2026-02-04 11:20:18 - No active profile set, falling back to 1 default profile: "default"
 2026-02-04 11:20:18 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2026-02-04 11:20:18 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
@@ -998,11 +998,11 @@
 2026-02-04 11:20:21 - HikariPool-1 - Start completed.
 2026-02-04 11:20:21 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
 2026-02-04 11:20:21 - HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/computerseekhoapp]
+	Database JDBC URL [jdbc:mysql://localhost:3306/Codingseekhoapp]
 	Database driver: MySQL Connector/J
 	Database dialect: MySQLDialect
 	Database version: 8.0.42
-	Default catalog/schema: computerseekhoapp/undefined
+	Default catalog/schema: Codingseekhoapp/undefined
 	Autocommit mode: undefined/unknown
 	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
 	JDBC fetch size: none
@@ -1016,7 +1016,7 @@
 2026-02-04 11:20:24 - Global AuthenticationManager configured with AuthenticationProvider bean with name usernamePasswordAuthentication
 2026-02-04 11:20:26 - Exposing 1 endpoint beneath base path '/actuator'
 2026-02-04 11:20:27 - Tomcat started on port 8080 (http) with context path '/'
-2026-02-04 11:20:27 - Started ComputerSeekhoApplication in 9.605 seconds (process running for 10.139)
+2026-02-04 11:20:27 - Started CodingSeekhoApplication in 9.605 seconds (process running for 10.139)
 2026-02-04 11:21:07 - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2026-02-04 11:21:07 - Initializing Servlet 'dispatcherServlet'
 2026-02-04 11:21:07 - Completed initialization in 3 ms
@@ -1477,7 +1477,7 @@
 2026-02-04 12:18:46 - Entering method: I18nController.getMessages(..)
 2026-02-04 12:18:46 - I18nController: getMessages called with lang=en
 2026-02-04 12:18:46 - Exiting method: I18nController.getMessages(..) | Execution time: 2 ms
-2026-02-05 12:25:30 - Starting ComputerSeekhoApplication using Java 17.0.4 with PID 7364 (V:\Final\ComputerSeekho\target\classes started by daksh in V:\Final\ComputerSeekho)
+2026-02-05 12:25:30 - Starting CodingSeekhoApplication using Java 17.0.4 with PID 7364 (V:\Final\CodingSeekho\target\classes started by daksh in V:\Final\CodingSeekho)
 2026-02-05 12:25:30 - No active profile set, falling back to 1 default profile: "default"
 2026-02-05 12:25:30 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2026-02-05 12:25:30 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
@@ -1495,11 +1495,11 @@
 2026-02-05 12:25:34 - HikariPool-1 - Start completed.
 2026-02-05 12:25:34 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
 2026-02-05 12:25:34 - HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/computerseekhoapp]
+	Database JDBC URL [jdbc:mysql://localhost:3306/Codingseekhoapp]
 	Database driver: MySQL Connector/J
 	Database dialect: MySQLDialect
 	Database version: 8.0.43
-	Default catalog/schema: computerseekhoapp/undefined
+	Default catalog/schema: Codingseekhoapp/undefined
 	Autocommit mode: undefined/unknown
 	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
 	JDBC fetch size: none
@@ -1513,7 +1513,7 @@
 2026-02-05 12:25:37 - Global AuthenticationManager configured with AuthenticationProvider bean with name usernamePasswordAuthentication
 2026-02-05 12:25:38 - Exposing 1 endpoint beneath base path '/actuator'
 2026-02-05 12:25:38 - Tomcat started on port 8080 (http) with context path '/'
-2026-02-05 12:25:38 - Started ComputerSeekhoApplication in 9.2 seconds (process running for 10.084)
+2026-02-05 12:25:38 - Started CodingSeekhoApplication in 9.2 seconds (process running for 10.084)
 2026-02-05 12:27:35 - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2026-02-05 12:27:35 - Initializing Servlet 'dispatcherServlet'
 2026-02-05 12:27:35 - Completed initialization in 6 ms
@@ -1654,7 +1654,7 @@
 2026-02-05 15:26:24 - Closing JPA EntityManagerFactory for persistence unit 'default'
 2026-02-05 15:26:25 - HikariPool-1 - Shutdown initiated...
 2026-02-05 15:26:25 - HikariPool-1 - Shutdown completed.
-2026-02-05 15:26:38 - Starting ComputerSeekhoApplication using Java 17.0.4 with PID 7364 (V:\Final\ComputerSeekho\target\classes started by daksh in V:\Final\ComputerSeekho)
+2026-02-05 15:26:38 - Starting CodingSeekhoApplication using Java 17.0.4 with PID 7364 (V:\Final\CodingSeekho\target\classes started by daksh in V:\Final\CodingSeekho)
 2026-02-05 15:26:38 - No active profile set, falling back to 1 default profile: "default"
 2026-02-05 15:26:45 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
 2026-02-05 15:26:45 - Finished Spring Data repository scanning in 473 ms. Found 17 JPA repository interfaces.
@@ -1669,11 +1669,11 @@
 2026-02-05 15:26:53 - HikariPool-2 - Start completed.
 2026-02-05 15:26:54 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
 2026-02-05 15:26:54 - HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/computerseekhoapp]
+	Database JDBC URL [jdbc:mysql://localhost:3306/Codingseekhoapp]
 	Database driver: MySQL Connector/J
 	Database dialect: MySQLDialect
 	Database version: 8.0.43
-	Default catalog/schema: computerseekhoapp/undefined
+	Default catalog/schema: Codingseekhoapp/undefined
 	Autocommit mode: undefined/unknown
 	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
 	JDBC fetch size: none
@@ -1686,7 +1686,7 @@
 2026-02-05 15:26:58 - Global AuthenticationManager configured with AuthenticationProvider bean with name usernamePasswordAuthentication
 2026-02-05 15:27:03 - Exposing 1 endpoint beneath base path '/actuator'
 2026-02-05 15:27:03 - Tomcat started on port 8080 (http) with context path '/'
-2026-02-05 15:27:03 - Started ComputerSeekhoApplication in 24.503 seconds (process running for 10894.723)
+2026-02-05 15:27:03 - Started CodingSeekhoApplication in 24.503 seconds (process running for 10894.723)
 2026-02-05 15:27:03 - Condition evaluation delta:
 
 
@@ -1728,3 +1728,169 @@ Unconditional classes:
 2026-02-05 15:30:51 - Closing JPA EntityManagerFactory for persistence unit 'default'
 2026-02-05 15:30:51 - HikariPool-2 - Shutdown initiated...
 2026-02-05 15:30:51 - HikariPool-2 - Shutdown completed.
+2026-06-10 12:29:02 - Starting CodingSeekhoApplication using Java 25.0.1 with PID 12132 (C:\Users\KRUSHNA\Desktop\Coding-Seekho\java-backend\target\classes started by KRUSHNA in C:\Users\KRUSHNA\Desktop\Coding-Seekho\java-backend)
+2026-06-10 12:29:02 - No active profile set, falling back to 1 default profile: "default"
+2026-06-10 12:29:02 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-10 12:29:02 - Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2026-06-10 12:29:03 - Tomcat initialized with port 8080 (http)
+2026-06-10 12:29:03 - Starting service [Tomcat]
+2026-06-10 12:29:03 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-06-10 12:29:03 - Root WebApplicationContext: initialization completed in 799 ms
+2026-06-10 12:29:03 - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-10 12:29:03 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-10 12:29:03 - HikariPool-2 - Starting...
+2026-06-10 12:29:03 - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@345650fd
+2026-06-10 12:29:03 - HikariPool-2 - Start completed.
+2026-06-10 12:29:03 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-10 12:29:03 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Codingseekhoapp]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: Codingseekhoapp/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-10 12:29:03 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-10 12:29:03 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-10 12:29:03 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-10 12:29:03 - 
+
+Using generated security password: e95064fd-e617-433f-908a-64349e496a50
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-06-10 12:29:03 - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-06-10 12:29:03 - Exposing 1 endpoint beneath base path '/actuator'
+2026-06-10 12:29:03 - Tomcat started on port 8080 (http) with context path '/'
+2026-06-10 12:29:03 - Started CodingSeekhoApplication in 1.489 seconds (process running for 1041.441)
+2026-06-10 12:29:03 - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   ManagementWebSecurityAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.security.web.util.matcher.RequestMatcher', 'org.springframework.boot.actuate.autoconfigure.endpoint.web.WebEndpointAutoConfiguration' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   UserDetailsServiceAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - AnyNestedCondition 1 matched 2 did not; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) did not find property 'spring.security.user.password'; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) did not find property 'spring.security.user.name'; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured)
+      - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,?; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2026-06-10 12:29:08 - Restarting due to 118 class path changes (118 additions, 0 deletions, 0 modifications)
+2026-06-10 12:29:08 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-10 12:29:09 - Graceful shutdown complete
+2026-06-10 12:29:09 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-10 12:29:09 - HikariPool-2 - Shutdown initiated...
+2026-06-10 12:29:09 - HikariPool-2 - Shutdown completed.
+2026-06-10 12:29:09 - Starting CodingSeekhoApplication using Java 25.0.1 with PID 12132 (C:\Users\KRUSHNA\Desktop\Coding-Seekho\java-backend\target\classes started by KRUSHNA in C:\Users\KRUSHNA\Desktop\Coding-Seekho\java-backend)
+2026-06-10 12:29:09 - No active profile set, falling back to 1 default profile: "default"
+2026-06-10 12:29:10 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-10 12:29:10 - Finished Spring Data repository scanning in 44 ms. Found 17 JPA repository interfaces.
+2026-06-10 12:29:10 - Tomcat initialized with port 8080 (http)
+2026-06-10 12:29:10 - Starting service [Tomcat]
+2026-06-10 12:29:10 - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-06-10 12:29:10 - Root WebApplicationContext: initialization completed in 708 ms
+2026-06-10 12:29:10 - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-06-10 12:29:10 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-10 12:29:10 - HikariPool-3 - Starting...
+2026-06-10 12:29:10 - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@425f8379
+2026-06-10 12:29:10 - HikariPool-3 - Start completed.
+2026-06-10 12:29:10 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-10 12:29:10 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Codingseekhoapp]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: Codingseekhoapp/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-10 12:29:11 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-10 12:29:11 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-10 12:29:11 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-10 12:29:11 - Global AuthenticationManager configured with AuthenticationProvider bean with name usernamePasswordAuthentication
+2026-06-10 12:29:12 - Exposing 1 endpoint beneath base path '/actuator'
+2026-06-10 12:29:12 - Tomcat started on port 8080 (http) with context path '/'
+2026-06-10 12:29:12 - Started CodingSeekhoApplication in 3.547 seconds (process running for 1050.554)
+2026-06-10 12:29:13 - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   ManagementWebSecurityAutoConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.web.SecurityFilterChain' filterChain; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+      Matched:
+         - @ConditionalOnClass found required classes 'org.springframework.security.web.util.matcher.RequestMatcher', 'org.springframework.boot.actuate.autoconfigure.endpoint.web.WebEndpointAutoConfiguration' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+
+   UserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,?; SearchStrategy: all) found beans of type 'org.springframework.security.authentication.AuthenticationManager' authManager and found beans of type 'org.springframework.security.authentication.AuthenticationProvider' usernamePasswordAuthentication (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+         - AnyNestedCondition 1 matched 2 did not; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) did not find property 'spring.security.user.password'; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) did not find property 'spring.security.user.name'; NestedCondition on MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (MissingAlternativeUserDetailsManagerOrUserPropertiesConfigured)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+

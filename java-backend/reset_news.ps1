@@ -27,6 +27,6 @@ if ($all) {
 }
 
 # 3. Add Fresh News
-$news = @{ newsTitle="Welcome to Computer Seekho"; newsDescription="New batches starting soon!"; newsUrl="http://test.com" } | ConvertTo-Json
+$news = @{ newsTitle="Welcome to Coding Seekho"; newsDescription="New batches starting soon!"; newsUrl="http://test.com" } | ConvertTo-Json
 Invoke-RestMethod -Uri "$BaseUrl/News/add" -Method Post -Headers $AuthHeader -Body $news
 Write-Host "Added Fresh News."

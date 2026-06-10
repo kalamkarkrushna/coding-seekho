@@ -243,7 +243,7 @@ const StudentRegistration = () => {
             {/* Payment Gateway Modal */}
             <Modal show={showPaymentModal} onHide={() => setShowPaymentModal(false)} backdrop="static" centered>
                 <Modal.Header closeButton>
-                    <Modal.Title>ComputerSeekho Secure Payment</Modal.Title>
+                    <Modal.Title>CodingSeekho Secure Payment</Modal.Title>
                 </Modal.Header>
                 <Modal.Body className="p-4">
                     <div className="text-center mb-4">

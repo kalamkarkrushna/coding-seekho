@@ -7,12 +7,12 @@ const Footer = () => {
             <Container>
                 <Row>
                     <Col md={6}>
-                        <h5>Computer Seekho</h5>
+                        <h5>Coding Seekho</h5>
                         <p>Empowering students with IT skills.</p>
                     </Col>
                     <Col md={6} className="text-md-end">
-                        <p>&copy; {new Date().getFullYear()} Computer Seekho. All Rights Reserved.</p>
-                        <p>Powered by SMVITA</p>
+                        <p>&copy; {new Date().getFullYear()} Coding Seekho. All Rights Reserved.</p>
+                        <p>Powered by KRISH</p>
                     </Col>
                 </Row>
             </Container>
