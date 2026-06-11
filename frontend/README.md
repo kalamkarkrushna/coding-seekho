@@ -1,16 +1,80 @@
-# React + Vite
+# Coding-Seekho Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React-based user interface for the Coding-Seekho platform — a coding practice and learning application.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
 
-## React Compiler
+- **React 19**
+- **Vite 7** (build tool)
+- **JavaScript** (ES6+)
+- **Axios** (HTTP client)
+- **React Router** (client-side routing)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
+
+The dev server starts at `http://localhost:5173` by default.
+
+---
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+Output is written to `dist/`.
+
+---
+
+## Environment Variables
+
+| Variable          | Required | Default | Description                          |
+|-------------------|----------|---------|--------------------------------------|
+| `VITE_API_URL`    | No       | `''`    | Base URL for the backend API         |
+
+Set in `.env` file:
+
+```env
+VITE_API_URL=http://localhost:8080
+```
+
+In production, this points to the deployed backend URL.
+
+---
+
+## Project Structure
+
+```
+frontend/
+├── public/            # Static assets
+├── src/
+│   ├── components/    # Reusable UI components
+│   ├── pages/         # Route-level page components
+│   ├── services/      # API client and service functions
+│   ├── styles/        # CSS files
+│   ├── App.jsx        # Root app component
+│   └── main.jsx       # Entry point
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## Scripts
+
+| Command             | Description                    |
+|---------------------|--------------------------------|
+| `npm run dev`       | Start development server       |
+| `npm run build`     | Build for production           |
+| `npm run preview`   | Preview production build       |
+| `npm run lint`      | Run ESLint                     |
