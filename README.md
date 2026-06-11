@@ -1,7 +1,7 @@
 
-# Computer-Seekho
+# Coding-Seekho
 
-Computer-Seekho is an educational repository designed to help learners understand real-world project structures, backend and frontend development, and how different technologies work together in a full-stack application.
+Coding-Seekho is an educational repository designed to help learners understand real-world project structures, backend and frontend development, and how different technologies work together in a full-stack application.
 
 This project is suitable for beginners and intermediate developers who want hands-on exposure to practical coding concepts.
 
@@ -11,7 +11,7 @@ This project is suitable for beginners and intermediate developers who want hand
 
 ```
 
-Computer-Seekho/
+Coding-Seekho/
 │
 ├── .metadata/              # Project metadata and configuration files
 ├── DotNet-backend/         # Backend implementation using .NET
@@ -49,7 +49,7 @@ Each folder represents a different technology stack to demonstrate multiple deve
 
 ### Clone the repository
 ```bash
-git clone https://github.com/codetil/Computer-Seekho.git
+git clone https://github.com/kalamkarkrushna/coding-seekho.git
 ````
 
 ### Open the project
